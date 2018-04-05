@@ -1,0 +1,17 @@
+<launch>
+
+ <!-- joy node -->
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="joy" >
+    <param name="dev" type="string" value="/dev/input/js0" />
+    <param name="deadzone" value="0.12" />
+  </node>
+
+ <!-- Axes -->
+  <node pkg="joy_controller"
+    type="teleop_joyphid" name="teleop"/>
+  <param name="velocity_ab" type="double" value="1.0" />
+  <param name="velocity_xy" type="double" value="2.0" />
+  <param name="velocity_axis" type="double" value="1.0" />
+  <param name="axis_treshold" type="double" value="0.8" />
+</launch>
