@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   joy
   roscpp
   std_msgs
-  message_generation 
+  message_generation
 )
 
 ## System dependencies are found with CMake's conventions
@@ -158,6 +158,9 @@ include_directories(
 
 add_executable(teleop_joyphid src/teleop_joyphid.cpp)
 target_link_libraries(teleop_joyphid ${catkin_LIBRARIES})
+
+add_executable(joyphid_float64 src/joyphid_float64.cpp)
+target_link_libraries(joyphid_float64 ${catkin_LIBRARIES})
 # all install targets should use catkin DESTINATION variables
 # See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html
 
