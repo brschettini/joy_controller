@@ -16,9 +16,9 @@
   <param name="velocity_axis" type="double" value="1.0" />
   <param name="axis_treshold" type="double" value="0.8" />
 
-<!-- 
+
   <node pkg="joy_controller"
-    type="joyphid_float64" name="joy_float64" /> -->
+    type="joyphid_float64" name="joy_float64" />
 
 
     <node name="dynamixel_manager" pkg="dynamixel_controllers" type="controller_manager.py" required="true" output="screen">
