@@ -52,7 +52,7 @@ find_package(catkin REQUIRED COMPONENTS
    DIRECTORY
    msg
    FILES
-   JoyPhid.msg
+   Joymsg.msg
  )
 
 ## Generate services in the 'srv' folder
@@ -156,11 +156,11 @@ include_directories(
 ## Install ##
 #############
 
-add_executable(teleop_joyphid src/teleop_joyphid.cpp)
-target_link_libraries(teleop_joyphid ${catkin_LIBRARIES})
+add_executable(teleop_joymsg src/teleop_joymsg.cpp)
+target_link_libraries(teleop_joymsg ${catkin_LIBRARIES})
 
-add_executable(joyphid_float64 src/joyphid_float64.cpp)
-target_link_libraries(joyphid_float64 ${catkin_LIBRARIES})
+add_executable(joymsg_float64 src/joymsg_float64.cpp)
+target_link_libraries(joymsg_float64 ${catkin_LIBRARIES})
 # all install targets should use catkin DESTINATION variables
 # See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html
 
