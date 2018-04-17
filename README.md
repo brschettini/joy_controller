@@ -6,7 +6,7 @@ The launch file [joy_cont.launch](https://github.com/brschettini/joy_controller/
 
 ![joy_controller_nodes](https://user-images.githubusercontent.com/33843749/38881899-49bf58c4-423f-11e8-8dca-56ef0f4ae797.png)
 
-Note that the float64 node sends a `std_msg::Float64` message to the topic `pan_controller/command`. This node has been made to control a Dynamixel Driver in Wheel mode just for learning purpose.
+Note that the float64 node sends a `std_msg::Float64` message to the topic `pan_controller/command`. This node has been made to control a [Dynamixel Driver](http://wiki.ros.org/dynamixel_controllers) in Wheel mode just for learning purpose.
 
 ## Getting Started
 
