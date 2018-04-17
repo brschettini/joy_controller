@@ -12,5 +12,19 @@ Note that the float64 node sends a `std_msg::Float64` message to the topic `pan_
 
 Before using this package, please visit the [Joystick Configuring Tutorial](http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick) so the joy node can be started without issues.
 
+After, clone this repository:
+
+```git clone https://github.com/brschettini/joy_controller```
+
+Source the setup.bash:
+
+```source your/catkin/workspace/devel/setup.bash```
+
+And finally start the launch:
+
+```roslaunch joy_controller joy_cont.launch```
 
 
+# Authors
+
+* **Bruno Schettini** - *Initial Work* - [brschettini](https://github.com/brschettini)
