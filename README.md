@@ -1,4 +1,4 @@
-# joy_controller - Publishing a custom ROS message using a joystick
+# Publishing a custom ROS message using a joystick
 
 This program is used to send a custom message using a joystick. For instance this program only works for a XBox 360 controller. If you want to use another controller, please visit [this page](http://wiki.ros.org/joystick_remapper).
 
