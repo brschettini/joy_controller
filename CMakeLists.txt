@@ -38,7 +38,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES joy_controller
+  LIBRARIES joy_controller
   CATKIN_DEPENDS message_runtime
 #  DEPENDS system_lib
 )
