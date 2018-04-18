@@ -77,7 +77,7 @@ void TeleopJoyMsg::joyCallback(const sensor_msgs::Joy::ConstPtr& joy)
   if (reset == 1){
     joy_msg.vel = 0;
     joy_msg.dir = 0;
-    button_check = false;
+    button_check = true;
     cmd_pub.publish(joy_msg);
   }
   else if (button_a == 1){

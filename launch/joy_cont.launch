@@ -18,7 +18,7 @@
 
   <!-- Node to receive custom message and send a Float64 to another topic -->
   <node pkg="joy_controller"
-    type="joyphid_float64" name="joy_float64" />
+    type="joymsg_float64" name="joy_float64" />
 
 
 </launch>
